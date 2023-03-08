@@ -50,11 +50,14 @@ service__head > h3{
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .service__list-icon{
     color: var(--color-primary);
     margin-top: 2px;
+
 }
 
 

@@ -10,6 +10,10 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .portfolio__item:hover{
@@ -21,8 +25,13 @@
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
-}
 
+}
+.p_image{
+    min-height: 150px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
 }
@@ -37,8 +46,9 @@
 /* ****************Media for Medium Tabs********************8 */
 @media screen and (max-width:1024px) {
     .portfolio__container{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr ;
         column-gap: 1rem;
+        max-width: 300px;
     }
 }
 
@@ -47,6 +57,10 @@
 
 @media screen and (max-width:600px) {
     .portfolio__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         grid-template-columns: 1fr;
         gap: 1rem;
     }

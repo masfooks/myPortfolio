@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 01rem;
     overflow: hidden;
 }
 
@@ -60,7 +60,7 @@ header {
 }
 
 img{
-    filter: drop-shadow(-17px 10px 7px black);
+    filter: drop-shadow(-25px 10px 7px black);
 }
 
 .scroll__down {
@@ -71,7 +71,7 @@ img{
     font-weight: 300;
     font-size: 1.2rem;
     transition: var(--transition-2);
-    
+
 }
 .scroll__down:hover{
     font-size: 1.4rem;
@@ -93,17 +93,21 @@ img{
     header {
         height: 100vh;
     }
-    
+
     .header__socials, .scroll__down {
         display: none;
+    }
+
+    .me-img{
+        height: 500px;
     }
 }
 
 @media screen and (max-width:1600px) {
    .header__socials{
     left: 4.5rem;
-   } 
-   
+   }
+
    .scroll__down {
         right: 4.5rem;
     }
