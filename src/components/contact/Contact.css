@@ -49,9 +49,15 @@
 /* *********************FORM************************** */
 
 form{
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+}
+
+.btn__send{
+    margin-right: 0;
+    position: relative;
 }
 
 input, textarea{
@@ -62,7 +68,7 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: whitesmoke;
-    
+
 }
 
 
@@ -83,5 +89,5 @@ input, textarea{
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
        }
-    
+
 }

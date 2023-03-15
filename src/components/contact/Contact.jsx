@@ -90,7 +90,7 @@ const Contact = () => {
             rows="7"
             placeholder="Your Message"
           ></textarea>
-          <button className="btn btn-primary">Send Message</button>
+          <button className="btn btn-primary btn__send">Send Message</button>
         </form>
       </div>
     </section>
